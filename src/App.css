@@ -1,0 +1,17 @@
+#root {
+  background-color: lightgray;
+}
+
+.user-input {
+  width: 90%;
+  padding: 1%;
+  margin: auto;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
