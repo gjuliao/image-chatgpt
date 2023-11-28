@@ -40,17 +40,13 @@ function App() {
     }
   };
 
-  // const setImage = () => {
-
-  // }
-
   return (
     <div className='container'>
 
-      <h2>Create an Image using Chat-GPT</h2>
+      <h1>Create an Image using Chat-GPT</h1>
       <input className='user-input' onChange={(e) => setPrompt(e.target.value)} placeholder='Describe what you want to generate' />
       <button className='btn' onClick={generateImage}>Generate Image</button>
-      {image.length > 0 ? <img className='gen-image' src={image} alt="Generated image" /> : <></>}
+      {image.length > 0 ? <img className='gen-image' src={image} alt="Generated image" /> : <h2>Write your input to view image here!</h2>}
     </div>
   )
 }
